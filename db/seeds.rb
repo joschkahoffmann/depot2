@@ -10,5 +10,10 @@ Product.create!(title: "Programming Ruby", description:
 	%{<p>
 	Ruby is the fastest growing and the most exciting dynamic language out there.
 	</p>},
-	image_url: 'ruby.jpg',
+	image_url: 'http://blog.ctf365.com/wp-content/uploads/2014/07/keep-calm-and-learn-ruby-on-rails-8.png',
 	price: 49.95)
+
+Product.create!(title:"This is another Ruby book", description:
+	%{<p> This is the bible for Ruby developers. </p>},
+	image_url: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Ruby_on_Rails_logo.jpg',
+	price: 99.99)
